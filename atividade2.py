@@ -13,7 +13,7 @@ if numero1 > numero2:
 else:
     maior = numero2
     menor = numero1
-   print(f"soma: {soma}")
-   print(f"produto: {produto}")    
-   print(f"maior numero: {maior}")
-   print(f"menor numero : {menor}")
+print(f"soma: {soma}") 
+print(f"produto: {produto}")    
+print(f"maior numero: {maior}")
+print(f"menor numero : {menor}")

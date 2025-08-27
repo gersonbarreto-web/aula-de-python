@@ -18,7 +18,7 @@ print(f"produto: {produto}")
 print(f"maior numero: {maior}")
 print(f"menor numero : {menor}")
 
-if numero1 == numero2
+if numero1 == numero2 :
 
     print ("numeros iguais")
 
