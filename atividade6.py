@@ -7,5 +7,5 @@ if macas <12:
     valor = macas*1.3
     print(f"o valor da sua compra foi: {valor}")
 else:
-    print (f"o valor da sua compra foi: {macas}") 
+    print (f"o valor da sua compra foi: {macas}")  
 
