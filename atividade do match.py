@@ -21,5 +21,5 @@ dia = input("Digite um numero para o dia da semana: ")
     case _:
       print("Opcao invalida")
   
-  print("fim")
+    print("fim")
   
