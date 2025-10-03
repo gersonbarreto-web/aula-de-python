@@ -1,0 +1,20 @@
+import os
+os . system("cls")
+
+#funcao com passagem de parametros.
+
+#criando uma funcao
+def saudacao(nome, idade , altura , peso ):
+    print(f"ola, {nome}! bem - vindo (a)!")
+    print(f"sua idade e {idade} anos.")
+    print(f"seu peso e {peso}.")
+    print(f"sua altura e {altura:.2f}")
+
+print("solilicitando dados")
+nome = input("digite seu nome")
+idade = int(input("Digitesua idade"))
+peso = float(input("digite seu peso"))
+altura = float(input("digite sua altura"))
+
+#Chamado a funcao.
+saudacao(nome, idade, altura, peso)

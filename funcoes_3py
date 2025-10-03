@@ -1,0 +1,12 @@
+import os
+os . system("cls")
+
+#funcao com passagem de parametros.
+
+#criando uma funcao
+def saudacao(nome):
+    print(f"ola, {nome}! bem - vindo (a)!")
+
+#Chamado a funcao.
+saudacao("marta")
+saudacao("Gerson bruno")

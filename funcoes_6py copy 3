@@ -1,0 +1,13 @@
+import os
+os . system("cls")
+
+def positivo_negativo(numero):
+   print(f"numero  {numero}")  
+   if numero <0 :
+      print("negativo")
+   else :
+      print("positivo")
+
+numero = int(input("Digite um numero"))
+
+positivo_negativo(numero)

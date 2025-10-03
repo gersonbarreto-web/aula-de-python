@@ -1,0 +1,13 @@
+import os
+os . system("cls")
+
+def par_impar(numero,):
+   print(f"numero  {numero}")  
+   if numero % 2 == 0:
+     print (" o numero e par")
+   else:
+      print("o numero e impar")  
+
+numero =int(input("digite um numero"))    
+
+par_impar(numero)
