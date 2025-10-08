@@ -1,0 +1,38 @@
+import os
+os.system("cls")
+
+
+
+def somar(n1, n2):
+    return n1 + n2
+
+def subtração(n1, n2):
+    return n1 - n2
+
+def mutiplicacao(n1, n2):
+    return n1 * n2
+
+def divisao(n1, n2):
+    return n1 / n2
+
+
+
+def mostrar_resultado(soma):
+    print(f"Resultado: {soma}")
+
+
+
+
+
+primeiro_numero = int(input("Digite um número: "))
+segundo_numero = int(input("Digite um número: "))
+
+soma = somar (primeiro_numero, segundo_numero)
+subtrair = subtração (primeiro_numero , segundo_numero)
+mutiplica =  mutiplicacao(primeiro_numero,segundo_numero)
+divisa =  divisao(primeiro_numero , segundo_numero)
+
+mostrar_resultado(soma)
+mostrar_resultado(subtrair)
+mostrar_resultado(mutiplica)
+mostrar_resultado(divisa)

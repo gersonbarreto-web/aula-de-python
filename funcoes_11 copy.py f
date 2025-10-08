@@ -1,0 +1,15 @@
+import os
+os.system("cls")
+
+
+def metros_para_centimetros(metros):
+    return metros * 100
+
+# Solicita o valor em metros
+valor_metros = float(input("Digite o valor em metros: "))
+
+# Chama a função e armazena o resultado
+valor_centimetros = metros_para_centimetros(valor_metros)
+
+# Mostra o resultado
+print(f"{valor_metros}  {valor_centimetros} ")

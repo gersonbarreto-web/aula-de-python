@@ -1,0 +1,14 @@
+import os
+import time
+
+os . system("cls")
+
+# criando uma funcao.
+def saudacao():
+      print("boa tarde!")
+      time.sleep(3) # espera 3 segundos
+      os.system("cls")
+#codigo principal
+saudacao() # chamando a funcao
+print("Exemplo de uso de uma funcao sem parametros.")      
+  

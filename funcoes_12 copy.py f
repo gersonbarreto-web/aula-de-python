@@ -1,0 +1,23 @@
+import os
+os.system("cls")
+
+
+
+def inflaciona_preco(preco):
+    if preco < 100 :
+        return produto * 1.10
+    else :
+        return preco * 1.20
+    
+produto = float(input("Digite o preco do produto "))    
+
+valor_produto = inflaciona_preco(produto)
+
+
+print(f"{produto} corresonde {valor_produto}")
+
+
+
+
+
+

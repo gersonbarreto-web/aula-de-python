@@ -10,4 +10,4 @@ def positivo_negativo(numero):
 
 numero = int(input("Digite um numero"))
 
-positivo_negativo(numero)
+positivo_negativo(numero)  
