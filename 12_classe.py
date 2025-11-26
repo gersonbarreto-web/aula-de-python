@@ -1,8 +1,7 @@
-import os
+import os 
 from dataclasses import dataclass
 
 os.system("cls")
-
 @dataclass
 class Endereco:
     logradouro: str
