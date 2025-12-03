@@ -161,6 +161,3 @@ while True:
             break
         case _:
             print("\nOpção inválida! Tente novamente.")
-
-    time.sleep(3)
-    os.system("cls || clear")
